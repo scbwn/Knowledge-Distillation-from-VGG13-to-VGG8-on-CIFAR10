@@ -1,0 +1,1 @@
+# Knowledge-Distillation-from-VGG13-to-VGG8-on-CIFAR10
