@@ -145,8 +145,8 @@ y_test=y_test.reshape(-1,1)
 
 
 # One-hot Encoding
-enc = OneHotEncoder(sparse=False)
-y_train=enc.fit_transform(y_train)
+from tensorflow.keras.utils import to_categorical
+y_train=to_categorical(y_train)
 
 
 # Data generator for training data
